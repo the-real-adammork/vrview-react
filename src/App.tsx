@@ -39,11 +39,10 @@ export class App extends React.PureComponent<{}, IScene> {
     const {scene} = this.state;
 
     return(
-
-          <Vrview {...this.state}
-            ref={ (vrview: Vrview) => {this.vrviewCmp = vrview} }
-            onClickHotspot={ this.handleClickHotspot }
-          />
+      <Vrview {...this.state}
+        ref={ (vrview: Vrview) => {this.vrviewCmp = vrview} }
+        onClickHotspot={ this.handleClickHotspot }
+      />
     )
   }
 }
