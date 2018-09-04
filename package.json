@@ -10,7 +10,6 @@
     "@types/prop-types": "^15.5.2",
     "@types/react": "16.0.33",
     "@types/react-dom": "16.0.3",
-    "office-ui-fabric-react": "^5.36.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts-ts": "2.8.0",
@@ -54,9 +53,17 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/config/assetsTransformer.js",
       "\\.(css|less)$": "<rootDir>/config/assetsTransformer.js"
     },
-    "roots": ["src"],
+    "roots": [
+      "src"
+    ],
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "moduleFileExtensions": ["ts", "tsx", "js"],
-    "collectCoverageFrom": ["src/**/*.{tsx,ts}"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{tsx,ts}"
+    ]
   }
 }

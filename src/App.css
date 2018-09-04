@@ -42,7 +42,19 @@ body{
   scrollbar-arrow-color: black;
   scrollbar-shadow-color: #C0C0C0;
   scrollbar-dark-shadow-color: #C0C0C0;
+  margin:0px;
+  height:100%;
 }
+html {
+  height:100%;
+}
+#root {
+  height:100%;
+}
+#vrview {
+  height:100%;
+}
+
 ::-webkit-scrollbar {width: 5px; height: 3px}
 ::-webkit-scrollbar-button {background-color: darkgrey}
 ::-webkit-scrollbar-track {background-color: lightgrey}
