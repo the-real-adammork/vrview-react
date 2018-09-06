@@ -27,11 +27,12 @@
     "tsutils": "^2.7.1"
   },
   "scripts": {
+    "widget":"run_widget.sh", 
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "eject": "react-scripts-ts eject",
     "test": "jest test --env=jsdom",
-    "test:update": "jest -u",
+    "test:upate": "jest -u",
     "test:watch": "jest --watch",
     "test:debug": "jest --debug",
     "coverage": "jest --no-cache --coverage",
