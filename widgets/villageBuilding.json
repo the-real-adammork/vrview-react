@@ -1,0 +1,41 @@
+[
+    {
+      "scene":
+      {
+        "id": 1,
+        "is_debug": true,
+        "image": "../images/360TourSelects/20180603_Brasil_Photos_0004_000000.jpg",
+        "is_stereo": false,
+        "description": "<div>Building</div>"
+      },
+      "hotspots": [
+        {"name": "scene1-hotspot1", "pitch": 0, "yaw": 0, "radius": 0.05, "distance": 2, "idNewScene": 2}
+      ]
+    },
+    {
+      "scene":
+      {
+        "id": 2,
+        "is_debug": true,
+        "image": "../images/360TourSelects/20180603_Brasil_Photos_0005_000000.jpg",
+        "is_stereo": false,
+        "description": "<div>Building</div>"
+      },
+      "hotspots": [
+        {"name": "scene2-hotspot1", "pitch": 0, "yaw": 0, "radius": 0.05, "distance": 2, "idNewScene": 3}
+      ]
+    },
+    {
+      "scene":
+      {
+        "id": 3,
+        "is_debug": true,
+        "image": "../images/360TourSelects/20180603_Brasil_Photos_0007_000000.jpg",
+        "is_stereo": false,
+        "description": "<div>Building</div>"
+      },
+      "hotspots": [
+        {"name": "scene3-hotspot1", "pitch": 0, "yaw": 0, "radius": 0.05, "distance": 2, "idNewScene": 1}
+      ]
+    }
+  ]

@@ -1,0 +1,19 @@
+[
+    {
+      "scene":
+      {
+        "id": 5,
+        "is_debug": true,
+        "video": "../video/jungle.mp4",
+        "is_stereo": false,
+        "title": "Jungle",
+        "loop":true,
+        "muted":true,
+        "description": "<div>Jungle</div>"
+      },
+      "hotspots": [
+        {"name": "scene2-hotspot3", "pitch": 0, "yaw": 0, "radius": 0.05, "distance": 2, "idNewScene": 3},
+        {"name": "scene2-hotspot4", "pitch": 0, "yaw": -35, "radius": 0.05, "distance": 2, "idNewScene": 4}
+      ]
+    }
+  ]
